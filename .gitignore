@@ -1,0 +1,85 @@
+# Root source folder (requested)
+/src/
+
+# -----------------------------
+# C# / .NET
+# -----------------------------
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+
+# Visual Studio / VS Code
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Java
+# -----------------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+out/
+
+# -----------------------------
+# Node.js
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+.yarn/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+dist/
+coverage/
+
+# -----------------------------
+# OS / misc
+# -----------------------------
+.DS_Store
+Thumbs.db

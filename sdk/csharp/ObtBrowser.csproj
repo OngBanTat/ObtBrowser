@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>ObtBrowserClient</AssemblyName>
+    <RootNamespace>ObtBrowser</RootNamespace>
+    <Version>1.0.0</Version>
+    <!-- System.Text.Json is included in .NET 6+ — no extra packages needed -->
+  </PropertyGroup>
+</Project>
